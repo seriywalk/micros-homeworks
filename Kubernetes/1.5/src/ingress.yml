@@ -14,12 +14,12 @@ spec:
         backend:
           service:
             name: nginx-svc
-            port: 
+            port:
               number: 80
       - path: /api
         pathType: Prefix
         backend:
           service:
             name: multitool-svc
-            port: 
+            port:
               number: 80
