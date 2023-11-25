@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-configmap
+data:
+  index.html: |
+    <html>
+    <h1> Welcome, Dude, you can see ConfigMap for nginx </h1>
+    </html
+  multitool_port: "8080"
